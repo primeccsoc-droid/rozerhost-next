@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
-    "build": "opennextjs-cloudflare build",
+    "build": "opennextjs-cloudflare",
     "start": "next start",
-    "deploy": "opennextjs-cloudflare deploy"
+    "deploy": "opennextjs-cloudflare --deploy"
   },
   "dependencies": {
     "@opennextjs/cloudflare": "^0.5.7",
